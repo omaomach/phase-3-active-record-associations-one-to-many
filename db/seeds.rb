@@ -1,5 +1,6 @@
 puts "🌱 Seeding data..."
 
+# In the seed file, we first create a game instance, then use the ID from that game instance to associate it with the corresponding review.
 # run a loop 50 times
 50.times do
   # create a game with random data
